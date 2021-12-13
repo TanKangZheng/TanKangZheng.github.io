@@ -1,0 +1,126 @@
+
+:root{
+  --background-primary: rgb(81, 0, 78);
+  --light-text-colour: rgb(221, 196, 230);
+}
+
+ body {
+   background-color: rgb(0, 0, 0);
+ }
+
+ .title-hello {
+   font-family: 'Noto Serif', serif;
+   font-size: 5rem;
+   font-weight: 10;
+ }
+
+ .title-name{
+
+   color: var(--light-text-colour);
+   background-color: var(--background-primary);
+
+   font-family: 'Noto Serif', serif;
+   font-size: 2rem;
+   font-weight: 10;
+
+   position: relative;
+   top: -1rem;
+ }
+
+ .title-tagline{
+   font-family: 'Noto Serif', serif;
+   font-size: 0.8rem;
+   font-weight: 10;
+
+   position: relative;
+   top: -0.5rem;
+ }
+
+ .title-container{
+    height: 30vh;
+
+   background-color: var(--light-text-colour);
+ }
+
+ .about-me-container{
+   width: 80vw;
+   height: 60vh;
+
+   margin-left: 10vw;
+   position: relative;
+   top: 5vh;
+
+   background-color: var(--background-primary);
+ }
+
+ .about-me-image{
+   width: 20vw;
+   height: 20vw;
+
+   border-radius: 100%;
+
+   box-shadow: 10px 5px 10px black;
+ }
+
+ .about-me-text{
+   font-family: 'Noto Serif', serif;
+   font-size: 1rem;
+   font-weight: 10;
+   color: var(--light-text-colour);
+   background-color: rgb(101, 0, 78);
+
+   padding-left: 5% !important;
+   padding-right: 5% !important;
+ }
+
+.acheivements-title{
+  font-family: 'Noto Serif', serif;
+  font-size: 2rem;
+  font-weight: 14;
+  color: var(--light-text-colour);
+
+  padding-left: 5% !important;
+  padding-right: 5% !important;
+
+  background-color: rgb(101, 0, 78);
+}
+
+.acheivement-image-container{
+  -background-color: rgb(101, 0, 78);
+}
+
+.acheivements-container{
+  background-color: var(--light-text-colour);
+
+  font-family: 'Noto Serif', serif;
+  font-size: 1rem;
+  font-weight: 8;
+
+  padding-left: 5% !important;
+  padding-right: 5% !important;
+}
+
+.acheivement-container-text-header{
+  font-family: 'Noto Serif', serif;
+  font-size: 1.5rem;
+  font-weight: 10;
+}
+
+.program-icon{
+  width: 2vw;
+  height: 2vw;
+}
+
+.contact-me-container{
+  margin-top: 10vh;
+  background-color: var(--light-text-colour);
+
+  font-family: 'Noto Serif', serif;
+  font-size: 1rem;
+  font-weight: 10;
+}
+
+.contact-me-container-image{
+  width: 2vw;
+  height: 2vw;
+}
